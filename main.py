@@ -10,7 +10,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
 from dotenv import load_dotenv
-load_dotenv()  # take environment variables from .env (especially openai api key)fdgrg
+load_dotenv()  # take environment variadfbles from .env (especially openai api key)fdgrg
 
 st.title("RockyBot: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
